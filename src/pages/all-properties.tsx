@@ -22,6 +22,15 @@ const AllProperties = () => {
           icon={<Add />}
         />
       </Stack>
+
+      <Box
+        mt="20px"
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: 3,
+        }}
+      ></Box>
     </Box>
   );
 };
